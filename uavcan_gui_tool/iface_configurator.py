@@ -79,7 +79,7 @@ def list_ifaces():
 
         out = OrderedDict()
         for port, name, _ in serial.tools.list_ports.comports():
-            out[name] = port
+            out[port] = port
 
         return out
 
