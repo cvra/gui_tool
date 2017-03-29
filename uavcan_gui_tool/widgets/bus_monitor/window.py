@@ -11,6 +11,7 @@ import time
 import os
 from functools import partial
 import uavcan
+uavcan.load_dsdl('.')
 from uavcan.driver import CANFrame
 from PyQt5.QtWidgets import QMainWindow, QHeaderView, QLabel, QSplitter, QSizePolicy, QWidget, QHBoxLayout, \
     QPlainTextEdit, QDialog, QVBoxLayout, QMenu, QAction
